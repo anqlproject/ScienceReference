@@ -1,0 +1,15 @@
+{
+  "id": "electromagnetism.ohms-law",
+  "name": "Ohm's law",
+  "type": "formula",
+  "expression": "R * I",
+  "latex": "V = RI",
+  "variables": [
+    { "symbol": "R", "name": "Electrical resistance", "unit": "ohm" },
+    { "symbol": "I", "name": "Electric current", "unit": "A" }
+  ],
+  "result": { "symbol": "V", "unit": "V" },
+  "conditions": "Applies to an ohmic component under conditions where its resistance is constant.",
+  "source": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+  "license": "MIT"
+}

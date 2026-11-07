@@ -1,0 +1,15 @@
+{
+  "id": "fluids.density",
+  "name": "Density",
+  "type": "formula",
+  "expression": "m / V",
+  "latex": "\\rho = \\frac{m}{V}",
+  "variables": [
+    { "symbol": "m", "name": "Mass", "unit": "kg" },
+    { "symbol": "V", "name": "Volume", "unit": "m^3" }
+  ],
+  "result": { "symbol": "rho", "unit": "kg/m^3" },
+  "conditions": "For a homogeneous sample; use local mass per volume for a nonuniform material.",
+  "source": "https://openstax.org/books/college-physics-2e/pages/11-1-density",
+  "license": "MIT"
+}

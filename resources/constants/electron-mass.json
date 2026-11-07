@@ -1,0 +1,12 @@
+{
+  "id": "constants.electron-mass",
+  "name": "Electron mass",
+  "type": "constant",
+  "symbol": "m_e",
+  "value": 9.1093837139e-31,
+  "unit": "kg",
+  "uncertainty": 2.8e-40,
+  "status": "CODATA 2022 recommended value",
+  "source": "https://physics.nist.gov/cgi-bin/cuu/Value?me",
+  "license": "MIT"
+}

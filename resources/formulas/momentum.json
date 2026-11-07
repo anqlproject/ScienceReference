@@ -1,0 +1,15 @@
+{
+  "id": "mechanics.momentum",
+  "name": "Linear momentum",
+  "type": "formula",
+  "expression": "m * v",
+  "latex": "\\vec{p} = m\\vec{v}",
+  "variables": [
+    { "symbol": "m", "name": "Mass", "unit": "kg" },
+    { "symbol": "v", "name": "Velocity", "unit": "m/s" }
+  ],
+  "result": { "symbol": "p", "unit": "kg m/s" },
+  "conditions": "Classical mechanics; the relation is vector-valued.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/9-1-linear-momentum",
+  "license": "MIT"
+}

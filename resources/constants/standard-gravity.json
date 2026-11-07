@@ -1,0 +1,12 @@
+{
+  "id": "constants.standard-gravity",
+  "name": "Standard acceleration of gravity",
+  "type": "constant",
+  "symbol": "g_0",
+  "value": 9.80665,
+  "unit": "m/s^2",
+  "uncertainty": 0,
+  "status": "conventional",
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "license": "MIT"
+}

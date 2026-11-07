@@ -1,0 +1,12 @@
+{
+  "id": "constants.elementary-charge",
+  "name": "Elementary charge",
+  "type": "constant",
+  "symbol": "e",
+  "value": 1.602176634e-19,
+  "unit": "C",
+  "uncertainty": 0,
+  "status": "exact",
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "license": "MIT"
+}

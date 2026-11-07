@@ -1,0 +1,15 @@
+{
+  "id": "electromagnetism.electric-power",
+  "name": "Electric power",
+  "type": "formula",
+  "expression": "V * I",
+  "latex": "P = VI",
+  "variables": [
+    { "symbol": "V", "name": "Voltage", "unit": "V" },
+    { "symbol": "I", "name": "Electric current", "unit": "A" }
+  ],
+  "result": { "symbol": "P", "unit": "W" },
+  "conditions": "Instantaneous power in a direct-current circuit; for time-varying signals, use instantaneous voltage and current.",
+  "source": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "constants.planck-constant",
+  "name": "Planck constant",
+  "type": "constant",
+  "symbol": "h",
+  "value": 6.62607015e-34,
+  "unit": "J s",
+  "uncertainty": 0,
+  "status": "exact",
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "license": "MIT"
+}

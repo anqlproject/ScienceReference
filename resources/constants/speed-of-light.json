@@ -1,0 +1,12 @@
+{
+  "id": "constants.speed-of-light",
+  "name": "Speed of light in vacuum",
+  "type": "constant",
+  "symbol": "c",
+  "value": 299792458,
+  "unit": "m/s",
+  "uncertainty": 0,
+  "status": "exact",
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "license": "MIT"
+}

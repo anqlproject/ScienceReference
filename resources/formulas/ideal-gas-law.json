@@ -1,0 +1,17 @@
+{
+  "id": "thermodynamics.ideal-gas-law",
+  "name": "Ideal gas law",
+  "type": "formula",
+  "expression": "n * R * T / V",
+  "latex": "p = \\frac{nRT}{V}",
+  "variables": [
+    { "symbol": "n", "name": "Amount of substance", "unit": "mol" },
+    { "symbol": "R", "name": "Molar gas constant", "unit": "J/(mol K)" },
+    { "symbol": "T", "name": "Absolute temperature", "unit": "K" },
+    { "symbol": "V", "name": "Volume", "unit": "m^3" }
+  ],
+  "result": { "symbol": "p", "unit": "Pa" },
+  "conditions": "Ideal-gas approximation; pressure and temperature are absolute and volume is nonzero.",
+  "source": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+  "license": "MIT"
+}

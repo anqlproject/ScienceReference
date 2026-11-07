@@ -1,0 +1,15 @@
+{
+  "id": "mechanics.newtons-second-law",
+  "name": "Newton's second law",
+  "type": "formula",
+  "expression": "m * a",
+  "latex": "\\vec{F}_{net} = m\\vec{a}",
+  "variables": [
+    { "symbol": "m", "name": "Mass", "unit": "kg" },
+    { "symbol": "a", "name": "Acceleration", "unit": "m/s^2" }
+  ],
+  "result": { "symbol": "F_net", "unit": "N" },
+  "conditions": "In an inertial reference frame, for constant mass. The relation is vector-valued.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/5-3-newtons-second-law",
+  "license": "MIT"
+}

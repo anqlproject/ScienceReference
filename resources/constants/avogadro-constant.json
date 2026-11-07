@@ -1,0 +1,12 @@
+{
+  "id": "constants.avogadro-constant",
+  "name": "Avogadro constant",
+  "type": "constant",
+  "symbol": "N_A",
+  "value": 6.02214076e23,
+  "unit": "mol^-1",
+  "uncertainty": 0,
+  "status": "exact",
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "license": "MIT"
+}

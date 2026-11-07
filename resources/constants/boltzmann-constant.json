@@ -1,0 +1,12 @@
+{
+  "id": "constants.boltzmann-constant",
+  "name": "Boltzmann constant",
+  "type": "constant",
+  "symbol": "k_B",
+  "value": 1.380649e-23,
+  "unit": "J/K",
+  "uncertainty": 0,
+  "status": "exact",
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "license": "MIT"
+}

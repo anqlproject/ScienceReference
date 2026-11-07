@@ -1,0 +1,15 @@
+{
+  "id": "mechanics.hookes-law",
+  "name": "Hooke's law",
+  "type": "formula",
+  "expression": "-k * x",
+  "latex": "F = -kx",
+  "variables": [
+    { "symbol": "k", "name": "Spring constant", "unit": "N/m" },
+    { "symbol": "x", "name": "Displacement from equilibrium", "unit": "m" }
+  ],
+  "result": { "symbol": "F", "unit": "N" },
+  "conditions": "Ideal spring within its linear elastic range; x is measured from equilibrium.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/15-1-simple-harmonic-motion",
+  "license": "MIT"
+}

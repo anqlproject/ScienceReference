@@ -1,0 +1,16 @@
+{
+  "id": "mechanics.gravitational-potential-energy",
+  "name": "Gravitational potential energy near Earth",
+  "type": "formula",
+  "expression": "m * g * h",
+  "latex": "\\Delta U = m g \\Delta h",
+  "variables": [
+    { "symbol": "m", "name": "Mass", "unit": "kg" },
+    { "symbol": "g", "name": "Gravitational field strength", "unit": "m/s^2" },
+    { "symbol": "h", "name": "Change in height", "unit": "m" }
+  ],
+  "result": { "symbol": "delta_U", "unit": "J" },
+  "conditions": "Uniform gravitational field; h is the change in height relative to a chosen reference level.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/8-1-potential-energy-of-a-system",
+  "license": "MIT"
+}

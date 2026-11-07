@@ -1,0 +1,12 @@
+{
+  "id": "constants.gravitational-constant",
+  "name": "Newtonian constant of gravitation",
+  "type": "constant",
+  "symbol": "G",
+  "value": 6.67430e-11,
+  "unit": "m^3 kg^-1 s^-2",
+  "uncertainty": 1.5e-15,
+  "status": "CODATA 2022 recommended value",
+  "source": "https://physics.nist.gov/cgi-bin/cuu/Value?bg",
+  "license": "MIT"
+}

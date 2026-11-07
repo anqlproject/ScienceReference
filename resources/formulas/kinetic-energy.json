@@ -1,0 +1,15 @@
+{
+  "id": "mechanics.kinetic-energy",
+  "name": "Kinetic energy",
+  "type": "formula",
+  "expression": "0.5 * m * v^2",
+  "latex": "E_k = \\frac{1}{2}mv^2",
+  "variables": [
+    { "symbol": "m", "name": "Mass", "unit": "kg" },
+    { "symbol": "v", "name": "Speed", "unit": "m/s" }
+  ],
+  "result": { "symbol": "E_k", "unit": "J" },
+  "conditions": "Classical mechanics; translational motion at speeds much smaller than the speed of light.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/7-2-work-and-energy",
+  "license": "MIT"
+}
