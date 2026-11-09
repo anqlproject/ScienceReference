@@ -1,0 +1,16 @@
+{
+  "id": "mechanics.constant-acceleration",
+  "name": "Acceleration from velocity change",
+  "type": "formula",
+  "expression": "(v - u) / t",
+  "latex": "a_{avg} = \\frac{v-u}{\\Delta t}",
+  "variables": [
+    { "symbol": "v", "name": "Final velocity", "unit": "m/s" },
+    { "symbol": "u", "name": "Initial velocity", "unit": "m/s" },
+    { "symbol": "t", "name": "Elapsed time", "unit": "s" }
+  ],
+  "result": { "symbol": "a_avg", "unit": "m/s^2" },
+  "conditions": "Average acceleration over a nonzero time interval; for constant acceleration this is also the constant acceleration.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/3-4-motion-with-constant-acceleration",
+  "license": "MIT"
+}

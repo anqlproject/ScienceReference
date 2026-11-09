@@ -1,0 +1,15 @@
+{
+  "id": "waves.wave-speed",
+  "name": "Wave speed",
+  "type": "formula",
+  "expression": "f * lambda",
+  "latex": "v = f\\lambda",
+  "variables": [
+    { "symbol": "f", "name": "Frequency", "unit": "Hz" },
+    { "symbol": "lambda", "name": "Wavelength", "unit": "m" }
+  ],
+  "result": { "symbol": "v", "unit": "m/s" },
+  "conditions": "For a periodic wave in a medium where frequency and wavelength are defined.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/16-1-traveling-waves",
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fluids.pressure",
+  "name": "Average pressure from normal force",
+  "type": "formula",
+  "expression": "F / A",
+  "latex": "p = \\frac{F}{A}",
+  "variables": [
+    { "symbol": "F", "name": "Normal force", "unit": "N" },
+    { "symbol": "A", "name": "Area", "unit": "m^2" }
+  ],
+  "result": { "symbol": "p", "unit": "Pa" },
+  "conditions": "F is the total normal force over a nonzero area; this gives average pressure. If pressure is uniform, it is also the local pressure.",
+  "source": "https://openstax.org/books/college-physics-2e/pages/11-4-pressure",
+  "license": "MIT"
+}

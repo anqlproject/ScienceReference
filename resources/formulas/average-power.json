@@ -1,0 +1,15 @@
+{
+  "id": "mechanics.average-power",
+  "name": "Average power",
+  "type": "formula",
+  "expression": "W / t",
+  "latex": "P_{avg} = \\frac{W}{\\Delta t}",
+  "variables": [
+    { "symbol": "W", "name": "Work transferred", "unit": "J" },
+    { "symbol": "t", "name": "Elapsed time", "unit": "s" }
+  ],
+  "result": { "symbol": "P_avg", "unit": "W" },
+  "conditions": "Average power over a nonzero time interval.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/7-5-power",
+  "license": "MIT"
+}

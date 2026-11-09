@@ -1,0 +1,15 @@
+{
+  "id": "mechanics.work",
+  "name": "Work by a constant force",
+  "type": "formula",
+  "expression": "F * d",
+  "latex": "W = Fd",
+  "variables": [
+    { "symbol": "F", "name": "Force", "unit": "N" },
+    { "symbol": "d", "name": "Displacement", "unit": "m" }
+  ],
+  "result": { "symbol": "W", "unit": "J" },
+  "conditions": "The force is constant and in the same direction as the displacement. If it points in the opposite direction, the work is negative.",
+  "source": "https://openstax.org/books/university-physics-volume-1/pages/7-1-work",
+  "license": "MIT"
+}

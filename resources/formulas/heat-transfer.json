@@ -1,0 +1,16 @@
+{
+  "id": "thermodynamics.heat-transfer",
+  "name": "Sensible heat transfer",
+  "type": "formula",
+  "expression": "m * c * delta_T",
+  "latex": "Q = mc\\Delta T",
+  "variables": [
+    { "symbol": "m", "name": "Mass", "unit": "kg" },
+    { "symbol": "c", "name": "Specific heat capacity", "unit": "J/(kg K)" },
+    { "symbol": "delta_T", "name": "Temperature change", "unit": "K" }
+  ],
+  "result": { "symbol": "Q", "unit": "J" },
+  "conditions": "Specific heat capacity is approximately constant over the temperature interval; no phase change occurs.",
+  "source": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "constants.fine-structure-constant",
+  "name": "Fine-structure constant",
+  "type": "constant",
+  "symbol": "alpha",
+  "value": 0.0072973525643,
+  "unit": "1",
+  "uncertainty": 1.1e-12,
+  "status": "CODATA 2022 recommended value",
+  "source": "https://physics.nist.gov/cgi-bin/cuu/Value?alph",
+  "license": "MIT"
+}

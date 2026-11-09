@@ -1,0 +1,12 @@
+{
+  "id": "constants.molar-gas-constant",
+  "name": "Molar gas constant",
+  "type": "constant",
+  "symbol": "R",
+  "value": 8.31446261815324,
+  "unit": "J/(mol K)",
+  "uncertainty": 0,
+  "status": "exact",
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "license": "MIT"
+}

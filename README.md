@@ -14,9 +14,10 @@ resolve them against the catalog URL to download a selected resource.
 
 ## Resource formats
 
-Every resource has a stable `id`, a display `name`, a `type`, a `version`, and a
-`source`. Constant resources use `anql-constant+json`; formula resources use
-`anql-formula+json`.
+Each catalog entry has a stable `id`, a display `name`, a `type`, a `version`,
+and a download path. Each resource file includes its stable `id`, display
+`name`, `type`, and scientific `source`. Constant resources use
+`anql-constant+json`; formula resources use `anql-formula+json`.
 
 Formula `expression` values use ordinary arithmetic operators (`+`, `-`, `*`,
 `/`) and `^` for exponentiation. Symbols in `variables` are the identifiers

@@ -1,0 +1,12 @@
+{
+  "id": "constants.proton-mass",
+  "name": "Proton mass",
+  "type": "constant",
+  "symbol": "m_p",
+  "value": 1.67262192595e-27,
+  "unit": "kg",
+  "uncertainty": 5.2e-37,
+  "status": "CODATA 2022 recommended value",
+  "source": "https://physics.nist.gov/cgi-bin/cuu/Value?mp",
+  "license": "MIT"
+}
