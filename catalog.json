@@ -6,318 +6,369 @@
     "name": "ScienceReference",
     "version": "1.0.0"
   },
-  "resources": [
+  "folders": [
     {
-      "id": "constants.speed-of-light",
-      "name": "Speed of light in vacuum",
-      "type": "constant",
-      "category": "Fundamental constants",
-      "description": "Exact speed of light in vacuum.",
-      "fileUrl": "resources/constants/speed-of-light.json",
-      "size": 280,
-      "sha256": "20856a07e5cbd9a1edc2be4934c7d366a8b8f08360ac0c4f9896584e0ed23efe",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
+      "id": "constants",
+      "name": "Constants",
+      "folders": [
+        {
+          "id": "fundamental-constants",
+          "name": "Fundamental constants",
+          "folders": [],
+          "files": [
+            {
+              "id": "constants.speed-of-light",
+              "name": "Speed of light in vacuum",
+              "type": "constant",
+              "description": "Exact speed of light in vacuum.",
+              "fileUrl": "resources/constants/speed-of-light.json",
+              "size": 280,
+              "sha256": "20856a07e5cbd9a1edc2be4934c7d366a8b8f08360ac0c4f9896584e0ed23efe",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            },
+            {
+              "id": "constants.planck-constant",
+              "name": "Planck constant",
+              "type": "constant",
+              "description": "Exact Planck constant.",
+              "fileUrl": "resources/constants/planck-constant.json",
+              "size": 277,
+              "sha256": "6f570f4ed426e878b7a1171f9b8bca45f190c6deaaabea08d7c347dad5963fa4",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            },
+            {
+              "id": "constants.elementary-charge",
+              "name": "Elementary charge",
+              "type": "constant",
+              "description": "Exact magnitude of the elementary electric charge.",
+              "fileUrl": "resources/constants/elementary-charge.json",
+              "size": 280,
+              "sha256": "af5a72d7ce9f5006cf0f89cde185415b0bbab6845df28b2b34d93067b16c8062",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            },
+            {
+              "id": "constants.electron-mass",
+              "name": "Electron mass",
+              "type": "constant",
+              "description": "CODATA 2022 recommended electron mass.",
+              "fileUrl": "resources/constants/electron-mass.json",
+              "size": 303,
+              "sha256": "c5a971967623ca96d4bd2760aee74f60e88440fb530d2188a144a00c7c7b21ab",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            },
+            {
+              "id": "constants.proton-mass",
+              "name": "Proton mass",
+              "type": "constant",
+              "description": "CODATA 2022 recommended proton mass.",
+              "fileUrl": "resources/constants/proton-mass.json",
+              "size": 300,
+              "sha256": "b94829d63c3d7b76b7350778532566e60a8876ca8d400cafb1ce7a9537e45dda",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            },
+            {
+              "id": "constants.fine-structure-constant",
+              "name": "Fine-structure constant",
+              "type": "constant",
+              "description": "CODATA 2022 recommended fine-structure constant.",
+              "fileUrl": "resources/constants/fine-structure-constant.json",
+              "size": 325,
+              "sha256": "f8f191f6d65734ed117c9ee5e6e8d44f150c6fadc0ea2dbe2cc5f3551995a4ed",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            }
+          ]
+        },
+        {
+          "id": "thermodynamics",
+          "name": "Thermodynamics",
+          "folders": [],
+          "files": [
+            {
+              "id": "constants.boltzmann-constant",
+              "name": "Boltzmann constant",
+              "type": "constant",
+              "description": "Exact Boltzmann constant.",
+              "fileUrl": "resources/constants/boltzmann-constant.json",
+              "size": 283,
+              "sha256": "4881579c8e28b182c9c5bf7e352e072929327db3b56d33df602d32571db091b7",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            },
+            {
+              "id": "constants.molar-gas-constant",
+              "name": "Molar gas constant",
+              "type": "constant",
+              "description": "Exact molar gas constant, derived from the exact Boltzmann and Avogadro constants.",
+              "fileUrl": "resources/constants/molar-gas-constant.json",
+              "size": 291,
+              "sha256": "6c191474f5a2da55eab3dd9781e7745c1a35624e1c012b74d514033a85dc9731",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "folders": [],
+          "files": [
+            {
+              "id": "constants.avogadro-constant",
+              "name": "Avogadro constant",
+              "type": "constant",
+              "description": "Exact Avogadro constant.",
+              "fileUrl": "resources/constants/avogadro-constant.json",
+              "size": 285,
+              "sha256": "b7fdb3e38165c97bc23b7b25d500447ae1bd8a1777ade8f4a7f1eb0ce83bbe06",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            }
+          ]
+        },
+        {
+          "id": "mechanics",
+          "name": "Mechanics",
+          "folders": [],
+          "files": [
+            {
+              "id": "constants.standard-gravity",
+              "name": "Standard acceleration of gravity",
+              "type": "constant",
+              "description": "Conventional standard acceleration of gravity near Earth's surface.",
+              "fileUrl": "resources/constants/standard-gravity.json",
+              "size": 299,
+              "sha256": "e609cfdb5de340e288140ba9c0386efda2c69613f3310649684096c18ee0a4ba",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            },
+            {
+              "id": "constants.gravitational-constant",
+              "name": "Newtonian constant of gravitation",
+              "type": "constant",
+              "description": "CODATA 2022 recommended value of the Newtonian constant of gravitation.",
+              "fileUrl": "resources/constants/gravitational-constant.json",
+              "size": 337,
+              "sha256": "3039dd97ced4c1972ed12a4de52b2504908c8362a9a3d129be60b0b6ecc2ea08",
+              "version": "1.0.0",
+              "format": "anql-constant+json"
+            }
+          ]
+        }
+      ],
+      "files": []
     },
     {
-      "id": "constants.planck-constant",
-      "name": "Planck constant",
-      "type": "constant",
-      "category": "Fundamental constants",
-      "description": "Exact Planck constant.",
-      "fileUrl": "resources/constants/planck-constant.json",
-      "size": 277,
-      "sha256": "6f570f4ed426e878b7a1171f9b8bca45f190c6deaaabea08d7c347dad5963fa4",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.elementary-charge",
-      "name": "Elementary charge",
-      "type": "constant",
-      "category": "Fundamental constants",
-      "description": "Exact magnitude of the elementary electric charge.",
-      "fileUrl": "resources/constants/elementary-charge.json",
-      "size": 280,
-      "sha256": "af5a72d7ce9f5006cf0f89cde185415b0bbab6845df28b2b34d93067b16c8062",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.boltzmann-constant",
-      "name": "Boltzmann constant",
-      "type": "constant",
-      "category": "Thermodynamics",
-      "description": "Exact Boltzmann constant.",
-      "fileUrl": "resources/constants/boltzmann-constant.json",
-      "size": 283,
-      "sha256": "4881579c8e28b182c9c5bf7e352e072929327db3b56d33df602d32571db091b7",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.avogadro-constant",
-      "name": "Avogadro constant",
-      "type": "constant",
-      "category": "Chemistry",
-      "description": "Exact Avogadro constant.",
-      "fileUrl": "resources/constants/avogadro-constant.json",
-      "size": 285,
-      "sha256": "b7fdb3e38165c97bc23b7b25d500447ae1bd8a1777ade8f4a7f1eb0ce83bbe06",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.standard-gravity",
-      "name": "Standard acceleration of gravity",
-      "type": "constant",
-      "category": "Mechanics",
-      "description": "Conventional standard acceleration of gravity near Earth's surface.",
-      "fileUrl": "resources/constants/standard-gravity.json",
-      "size": 299,
-      "sha256": "e609cfdb5de340e288140ba9c0386efda2c69613f3310649684096c18ee0a4ba",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.gravitational-constant",
-      "name": "Newtonian constant of gravitation",
-      "type": "constant",
-      "category": "Mechanics",
-      "description": "CODATA 2022 recommended value of the Newtonian constant of gravitation.",
-      "fileUrl": "resources/constants/gravitational-constant.json",
-      "size": 337,
-      "sha256": "3039dd97ced4c1972ed12a4de52b2504908c8362a9a3d129be60b0b6ecc2ea08",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.electron-mass",
-      "name": "Electron mass",
-      "type": "constant",
-      "category": "Fundamental constants",
-      "description": "CODATA 2022 recommended electron mass.",
-      "fileUrl": "resources/constants/electron-mass.json",
-      "size": 303,
-      "sha256": "c5a971967623ca96d4bd2760aee74f60e88440fb530d2188a144a00c7c7b21ab",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.molar-gas-constant",
-      "name": "Molar gas constant",
-      "type": "constant",
-      "category": "Thermodynamics",
-      "description": "Exact molar gas constant, derived from the exact Boltzmann and Avogadro constants.",
-      "fileUrl": "resources/constants/molar-gas-constant.json",
-      "size": 291,
-      "sha256": "6c191474f5a2da55eab3dd9781e7745c1a35624e1c012b74d514033a85dc9731",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.proton-mass",
-      "name": "Proton mass",
-      "type": "constant",
-      "category": "Fundamental constants",
-      "description": "CODATA 2022 recommended proton mass.",
-      "fileUrl": "resources/constants/proton-mass.json",
-      "size": 300,
-      "sha256": "b94829d63c3d7b76b7350778532566e60a8876ca8d400cafb1ce7a9537e45dda",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "constants.fine-structure-constant",
-      "name": "Fine-structure constant",
-      "type": "constant",
-      "category": "Fundamental constants",
-      "description": "CODATA 2022 recommended fine-structure constant.",
-      "fileUrl": "resources/constants/fine-structure-constant.json",
-      "size": 325,
-      "sha256": "f8f191f6d65734ed117c9ee5e6e8d44f150c6fadc0ea2dbe2cc5f3551995a4ed",
-      "version": "1.0.0",
-      "format": "anql-constant+json"
-    },
-    {
-      "id": "mechanics.kinetic-energy",
-      "name": "Kinetic energy",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Translational kinetic energy in classical mechanics.",
-      "fileUrl": "resources/formulas/kinetic-energy.json",
-      "size": 558,
-      "sha256": "084ae018bf33449270b58e4d811e49864dd30262c80cd55426a31e8629572898",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "mechanics.work",
-      "name": "Work by a constant force",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Work by a constant force in the direction of displacement.",
-      "fileUrl": "resources/formulas/work.json",
-      "size": 567,
-      "sha256": "ec076de683c4dfad1f1ae91b201c090a1a4751fed5a5ab6d29205343bd486786",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "mechanics.average-power",
-      "name": "Average power",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Work transferred per unit time over a time interval.",
-      "fileUrl": "resources/formulas/average-power.json",
-      "size": 518,
-      "sha256": "0df2966de773a5fa01b4a1b50a5ac2573891545b504d232610bf84e00d07a18a",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "mechanics.constant-acceleration",
-      "name": "Acceleration from velocity change",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Average acceleration from a change in velocity over a time interval.",
-      "fileUrl": "resources/formulas/constant-acceleration.json",
-      "size": 725,
-      "sha256": "6548697c68a5e8f25614b889dc881161be179f9cb11d2b08d20f61c588ebd636",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "mechanics.gravitational-potential-energy",
-      "name": "Gravitational potential energy near Earth",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Change in gravitational potential energy in a uniform gravitational field.",
-      "fileUrl": "resources/formulas/gravitational-potential-energy.json",
-      "size": 709,
-      "sha256": "d0e17eacf292133699e17f5094afd68e9ba1c68eadb2dde799ea927bcb85cf88",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "mechanics.newtons-second-law",
-      "name": "Newton's second law",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Net force equals mass times acceleration.",
-      "fileUrl": "resources/formulas/newtons-second-law.json",
-      "size": 569,
-      "sha256": "9f2ddd407236cb332c0daa811a0ad84ef251e4cf95c80cde54ca323060166bdc",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "mechanics.momentum",
-      "name": "Linear momentum",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Classical linear momentum of an object.",
-      "fileUrl": "resources/formulas/momentum.json",
-      "size": 511,
-      "sha256": "341a930798f75f17f2849b5b0bb8a30fa30be0166be17c93afcfa2017a903e09",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "mechanics.hookes-law",
-      "name": "Hooke's law",
-      "type": "formula",
-      "category": "Mechanics",
-      "description": "Restoring force of an ideal spring within its linear range.",
-      "fileUrl": "resources/formulas/hookes-law.json",
-      "size": 557,
-      "sha256": "5bacc5a3a0f5ba3856b18f23c05bdd90f90102ca68242c8a2b52d2a5be2035ee",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "electromagnetism.ohms-law",
-      "name": "Ohm's law",
-      "type": "formula",
-      "category": "Electromagnetism",
-      "description": "Voltage, current, and resistance relation for an ohmic component.",
-      "fileUrl": "resources/formulas/ohms-law.json",
-      "size": 562,
-      "sha256": "cc7329fb3e18c2b5a9591fe52f441081f586c2bc3f1b561d5a219060d6a32a55",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "electromagnetism.electric-power",
-      "name": "Electric power",
-      "type": "formula",
-      "category": "Electromagnetism",
-      "description": "Power in a direct-current circuit.",
-      "fileUrl": "resources/formulas/electric-power.json",
-      "size": 576,
-      "sha256": "89dcc2a31afed09505c61ce1a780a440de86aa1d074fde79a235d915beeed6db",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "fluids.density",
-      "name": "Density",
-      "type": "formula",
-      "category": "Fluids",
-      "description": "Mass per unit volume.",
-      "fileUrl": "resources/formulas/density.json",
-      "size": 510,
-      "sha256": "5cf53c13e429f11c192630923fe617bfa07aeabde692c10821449d728734d229",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "fluids.pressure",
-      "name": "Average pressure from normal force",
-      "type": "formula",
-      "category": "Fluids",
-      "description": "Average pressure from the total normal force over an area.",
-      "fileUrl": "resources/formulas/pressure.json",
-      "size": 588,
-      "sha256": "2aba003c482d6f960457b1d047c766d9f6c7a1f83c507032fdec5cceee55c13a",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "waves.wave-speed",
-      "name": "Wave speed",
-      "type": "formula",
-      "category": "Waves",
-      "description": "Wave speed from frequency and wavelength.",
-      "fileUrl": "resources/formulas/wave-speed.json",
-      "size": 534,
-      "sha256": "b9bcec8ed6d244e2cd86d95e63dfd411e20c9327733e1e5c8484ce5f51c8ade5",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "thermodynamics.heat-transfer",
-      "name": "Sensible heat transfer",
-      "type": "formula",
-      "category": "Thermodynamics",
-      "description": "Heat transferred when a substance changes temperature without a phase change.",
-      "fileUrl": "resources/formulas/heat-transfer.json",
-      "size": 652,
-      "sha256": "68fa2bbcaa77a93bfabdaa96b7ff14c04ffdd8e59d1c684e0b768cbadca4e3ef",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
-    },
-    {
-      "id": "thermodynamics.ideal-gas-law",
-      "name": "Ideal gas law",
-      "type": "formula",
-      "category": "Thermodynamics",
-      "description": "State equation for an ideal gas.",
-      "fileUrl": "resources/formulas/ideal-gas-law.json",
-      "size": 746,
-      "sha256": "9e05ccdfd504a901b40e92b6b2aeca71fa7b54e780744962efda5d9e55bd8fdf",
-      "version": "1.0.0",
-      "format": "anql-formula+json"
+      "id": "equations",
+      "name": "Equations",
+      "folders": [
+        {
+          "id": "mechanics",
+          "name": "Mechanics",
+          "folders": [],
+          "files": [
+            {
+              "id": "mechanics.kinetic-energy",
+              "name": "Kinetic energy",
+              "type": "formula",
+              "description": "Translational kinetic energy in classical mechanics.",
+              "fileUrl": "resources/formulas/kinetic-energy.json",
+              "size": 558,
+              "sha256": "084ae018bf33449270b58e4d811e49864dd30262c80cd55426a31e8629572898",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "mechanics.work",
+              "name": "Work by a constant force",
+              "type": "formula",
+              "description": "Work by a constant force in the direction of displacement.",
+              "fileUrl": "resources/formulas/work.json",
+              "size": 567,
+              "sha256": "ec076de683c4dfad1f1ae91b201c090a1a4751fed5a5ab6d29205343bd486786",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "mechanics.average-power",
+              "name": "Average power",
+              "type": "formula",
+              "description": "Work transferred per unit time over a time interval.",
+              "fileUrl": "resources/formulas/average-power.json",
+              "size": 518,
+              "sha256": "0df2966de773a5fa01b4a1b50a5ac2573891545b504d232610bf84e00d07a18a",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "mechanics.constant-acceleration",
+              "name": "Acceleration from velocity change",
+              "type": "formula",
+              "description": "Average acceleration from a change in velocity over a time interval.",
+              "fileUrl": "resources/formulas/constant-acceleration.json",
+              "size": 725,
+              "sha256": "6548697c68a5e8f25614b889dc881161be179f9cb11d2b08d20f61c588ebd636",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "mechanics.gravitational-potential-energy",
+              "name": "Gravitational potential energy near Earth",
+              "type": "formula",
+              "description": "Change in gravitational potential energy in a uniform gravitational field.",
+              "fileUrl": "resources/formulas/gravitational-potential-energy.json",
+              "size": 709,
+              "sha256": "d0e17eacf292133699e17f5094afd68e9ba1c68eadb2dde799ea927bcb85cf88",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "mechanics.newtons-second-law",
+              "name": "Newton's second law",
+              "type": "formula",
+              "description": "Net force equals mass times acceleration.",
+              "fileUrl": "resources/formulas/newtons-second-law.json",
+              "size": 569,
+              "sha256": "9f2ddd407236cb332c0daa811a0ad84ef251e4cf95c80cde54ca323060166bdc",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "mechanics.momentum",
+              "name": "Linear momentum",
+              "type": "formula",
+              "description": "Classical linear momentum of an object.",
+              "fileUrl": "resources/formulas/momentum.json",
+              "size": 511,
+              "sha256": "341a930798f75f17f2849b5b0bb8a30fa30be0166be17c93afcfa2017a903e09",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "mechanics.hookes-law",
+              "name": "Hooke's law",
+              "type": "formula",
+              "description": "Restoring force of an ideal spring within its linear range.",
+              "fileUrl": "resources/formulas/hookes-law.json",
+              "size": 557,
+              "sha256": "5bacc5a3a0f5ba3856b18f23c05bdd90f90102ca68242c8a2b52d2a5be2035ee",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            }
+          ]
+        },
+        {
+          "id": "electromagnetism",
+          "name": "Electromagnetism",
+          "folders": [],
+          "files": [
+            {
+              "id": "electromagnetism.ohms-law",
+              "name": "Ohm's law",
+              "type": "formula",
+              "description": "Voltage, current, and resistance relation for an ohmic component.",
+              "fileUrl": "resources/formulas/ohms-law.json",
+              "size": 562,
+              "sha256": "cc7329fb3e18c2b5a9591fe52f441081f586c2bc3f1b561d5a219060d6a32a55",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "electromagnetism.electric-power",
+              "name": "Electric power",
+              "type": "formula",
+              "description": "Power in a direct-current circuit.",
+              "fileUrl": "resources/formulas/electric-power.json",
+              "size": 576,
+              "sha256": "89dcc2a31afed09505c61ce1a780a440de86aa1d074fde79a235d915beeed6db",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            }
+          ]
+        },
+        {
+          "id": "fluids",
+          "name": "Fluids",
+          "folders": [],
+          "files": [
+            {
+              "id": "fluids.density",
+              "name": "Density",
+              "type": "formula",
+              "description": "Mass per unit volume.",
+              "fileUrl": "resources/formulas/density.json",
+              "size": 510,
+              "sha256": "5cf53c13e429f11c192630923fe617bfa07aeabde692c10821449d728734d229",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "fluids.pressure",
+              "name": "Average pressure from normal force",
+              "type": "formula",
+              "description": "Average pressure from the total normal force over an area.",
+              "fileUrl": "resources/formulas/pressure.json",
+              "size": 588,
+              "sha256": "2aba003c482d6f960457b1d047c766d9f6c7a1f83c507032fdec5cceee55c13a",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            }
+          ]
+        },
+        {
+          "id": "waves",
+          "name": "Waves",
+          "folders": [],
+          "files": [
+            {
+              "id": "waves.wave-speed",
+              "name": "Wave speed",
+              "type": "formula",
+              "description": "Wave speed from frequency and wavelength.",
+              "fileUrl": "resources/formulas/wave-speed.json",
+              "size": 534,
+              "sha256": "b9bcec8ed6d244e2cd86d95e63dfd411e20c9327733e1e5c8484ce5f51c8ade5",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            }
+          ]
+        },
+        {
+          "id": "thermodynamics",
+          "name": "Thermodynamics",
+          "folders": [],
+          "files": [
+            {
+              "id": "thermodynamics.heat-transfer",
+              "name": "Sensible heat transfer",
+              "type": "formula",
+              "description": "Heat transferred when a substance changes temperature without a phase change.",
+              "fileUrl": "resources/formulas/heat-transfer.json",
+              "size": 652,
+              "sha256": "68fa2bbcaa77a93bfabdaa96b7ff14c04ffdd8e59d1c684e0b768cbadca4e3ef",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            },
+            {
+              "id": "thermodynamics.ideal-gas-law",
+              "name": "Ideal gas law",
+              "type": "formula",
+              "description": "State equation for an ideal gas.",
+              "fileUrl": "resources/formulas/ideal-gas-law.json",
+              "size": 746,
+              "sha256": "9e05ccdfd504a901b40e92b6b2aeca71fa7b54e780744962efda5d9e55bd8fdf",
+              "version": "1.0.0",
+              "format": "anql-formula+json"
+            }
+          ]
+        }
+      ],
+      "files": []
     }
   ]
 }
