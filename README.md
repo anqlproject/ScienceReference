@@ -6,8 +6,8 @@ formulas for use as offline reference resources.
 ## Contents
 
 - `catalog.json` lists each resource and its metadata.
-- `resources/constants/` contains one JSON file per physical constant.
-- `resources/formulas/` contains one JSON file per formula.
+- `constants/` contains one JSON file per physical constant.
+- `formulas/` contains one JSON file per formula.
 
 Catalog `fileUrl` values are paths relative to `catalog.json`. A client can
 resolve them against the catalog URL to download a selected resource.
